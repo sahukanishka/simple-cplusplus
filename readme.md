@@ -6,4 +6,12 @@ I will try to teach you like 6 year old kid. If you found this helpful hit the s
 ----
 
 ## Chapters 
-1. 
+1. What is c++ 
+2. Why we need to learn it  
+3. How c++ was invented 
+4. Do i need to learn c before learning c++ 
+5. How c++ works 
+6. How compiler works 
+7. how Linker works 
+8. Variables
+9. Functions
