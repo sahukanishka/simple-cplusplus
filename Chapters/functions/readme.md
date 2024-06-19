@@ -6,7 +6,22 @@ Functions are constructs that take input, perform some operation, and return an 
 
 Functions help you write your functionality once and then reuse it whenever and wherever you need. Suppose we are selling apples 🍎 and want to calculate the profit. Without functions, you would have to write the code to calculate profit every time. However, with a function, you create it once and then use it again and again.
 
+### How to write function in c++
+
+There is always a one function in c++ program that is called **main** function. When we compile our code this function runs. Function can return or cannot return anything its depends use case. If we want to return integer from our function then the function will start form **int** and if we want to return nothing it will start from **void**.
+
+The main function in c++ is special function and by default its return 0 so we don't have to explicitly return anything from main.
 Here's an example in C++:
+
+```cpp
+#include <iostream>
+
+int main(){
+    std::cout<<"Program executed"<<std::endl;
+}
+```
+
+Create new function apart form main :
 
 ```cpp
 #include <iostream>
