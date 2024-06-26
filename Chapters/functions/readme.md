@@ -8,7 +8,7 @@ Functions help you write your functionality once and then reuse it whenever and 
 
 ### How to write function in c++
 
-There is always a one function in c++ program that is called **main** function. When we compile our code this function runs. Function can return or cannot return anything its depends use case. If we want to return integer from our function then the function will start form **int** and if we want to return nothing it will start from **void**.
+There is always a one function in c++ program that is called **main()** function. When we compile our code this function runs. Function can return or cannot return anything its depends use case. If we want to return integer from our function then the function will start form **int** and if we want to return nothing it will start from **void**.
 
 The main function in c++ is special function and by default its return 0 so we don't have to explicitly return anything from main.
 Here's an example in C++:
@@ -60,6 +60,59 @@ int main(){
     return 0;
 }
 ```
+### Parameter Passing to function
 
-The primary use of functions is to prevent code duplication. However, it's important to strike a balance; creating functions for very small tasks can slow down the compilation speed.
+There are two ways we can pass parameter to function. 
+1. Pass by value 
+2. Pass by reference
 
+#### Pass by value : 
+When we pass the value to the function and the changes made in function not affect the actual value of the passed variable is called pass by value. If the value of the passed parameter is changed it only affect within the scope of that function only, they have no effect on the value of the argument in the calling function.
+
+example :
+
+```cpp
+#include<iostream>
+
+int sumOfTwo(int a , int b){
+    a = a + b;
+    std::cout << "Value of a,b in calling function a = " << a << " and b = " << b << std::endl;
+    return a;
+}
+
+int main(){
+    int a = 10;
+    int b = 20;
+    sumOfTwo(a,b);
+    std::cout << "Value of a,b in main function a = " << a << " and b = " << b << std::endl;
+}
+```
+
+
+
+#### Pass by reference : 
+When we pass the reference of an argument in the calling function and the changes made by calling function can reflect the value of the parameter in the main function. i.e the calling function can modify the argument by using its reference.
+
+```cpp
+#include<iostream>
+
+int swapNumber(int &a , int &b){
+   int temp = 0;
+   temp = a;
+   a = b;
+   b = temp;
+   return a,b
+}
+
+int main(){
+    int x = 11;
+    int y = 12;
+    std::cout<<"Before swap x,y = "<< x <<" , " << y <<  std::endl;
+    swapNumber(x,y);
+    std::cout<<"After swap x,y = "<< x <<" , " << y <<  std::endl;
+}
+```
+
+The pass by reference is more efficient that pass by value because it does not copy the argument.
+
+The primary use of functions is to prevent code duplication. However, it's important to strike a balance; creating functions for very small tasks can slow down the compilation speed. You can decide weather to use pass-by-value or pass-by-reference according to use case.
