@@ -14,5 +14,5 @@ I will try to teach you like 6 year old kid. If you found this helpful hit the s
 6. How compiler works 
 7. how Linker works 
 8. Variables
-9. [Functions](chapter/functions/readme.md)
-10. [Header Files](chapter/header-files/readme.md)
+9. [Functions](chapters/functions/readme.md)
+10. [Header Files](chapters/header-files/readme.md)
