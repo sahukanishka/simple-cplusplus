@@ -1,6 +1,6 @@
 // #pragma once
 
-#ifndef lOG
-#define lOG
+#ifndef COMMON_H
+#define COMMON_H
 void log(const char* message);
-#endif // lOG
+#endif // COMMON_H
