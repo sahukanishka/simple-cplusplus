@@ -16,3 +16,4 @@ I will try to teach you like 6 year old kid. If you found this helpful hit the s
 8. [Variables](chapters/variables/readme.md)
 9. [Functions](chapters/functions/readme.md)
 10. [Header Files](chapters/header-files/readme.md)
+11. [Conditions](chapters/conditions/readme.md)
