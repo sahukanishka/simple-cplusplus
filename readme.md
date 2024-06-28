@@ -13,6 +13,6 @@ I will try to teach you like 6 year old kid. If you found this helpful hit the s
 5. How c++ works 
 6. How compiler works 
 7. how Linker works 
-8. Variables
+8. [Variables](chapters/variables/readme.md)
 9. [Functions](chapters/functions/readme.md)
 10. [Header Files](chapters/header-files/readme.md)
