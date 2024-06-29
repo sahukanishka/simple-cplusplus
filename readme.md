@@ -18,3 +18,4 @@ I will try to teach you like 6 year old kid. If you found this helpful hit the s
 10. [Header Files](chapters/header-files/readme.md)
 11. [Conditions](chapters/conditions/readme.md)
 12. [Loops](chapters/loops/readme.md)
+13. [Pointers](chapters/pointers/readme.md)
