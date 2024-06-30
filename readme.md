@@ -19,3 +19,5 @@ I will try to teach you like 6 year old kid. If you found this helpful hit the s
 11. [Conditions](chapters/conditions/readme.md)
 12. [Loops](chapters/loops/readme.md)
 13. [Pointers](chapters/pointers/readme.md)
+14. [References](chapters/references/readme.md)
+15. [Classes](chapters/classes/readme.md)

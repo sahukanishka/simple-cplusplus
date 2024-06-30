@@ -2,8 +2,8 @@
 using namespace std;
 int main(){
     int x = 10;
-    int *x_pointer = &x;
-    int **y_pointer = &x_pointer ;
+    int* x_pointer = &x;
+    int** y_pointer = &x_pointer ;
     std::cout<<"Memory address of x "<<x_pointer<<std::endl;
     std::cout<<"Value of x from pointer "<<*x_pointer<<std::endl;
     std::cout<<"Memory address of x_pointer : "<<y_pointer<<std::endl;
