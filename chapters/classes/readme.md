@@ -1,9 +1,9 @@
 # Classes
+
 Classes are the building block or object [oriented programming](). Lets understand the classes in simpler way. Suppose you want to create a program that can tell the specs of a car. Lets create a bunch of variables to define our car.
 
-```c
-string carModel = "s-class";
-string carEngine = "1200cc",
+```cpp
+string brand = "s-class";
 int topSpeed = 200;
 int price = 999999;
 ```
@@ -12,7 +12,7 @@ As you can see we have car model,engine,price and top speed of car. Suppose we w
 
 **Classes**  are nothing but user defined data type with holds its own data member and data functions. These data can be accessed and used by creating a instance of car class.
 
-```c
+```cpp
 int main()
 {
     class Car
@@ -33,3 +33,23 @@ int main()
 ```
 
 By default class created a private data members and function, means you can access these directly. So if you want to use data members and function to use directly you have to use keyword **public** before initializing variables. 
+
+### How to use class and access its data members and function - 
+
+To use the class we have to create a instance of it. like `ClassName ObjectName;` In the below example we have created a class bmw and assigned the value to its data members. In this class we also have a function that calculates the on road price with tex of that car.
+
+```cpp
+
+ Car bmw;
+    bmw.brand = "bmw";
+    bmw.price = 99999;
+    bmw.topSpeed = 280;
+
+    cout << "Car" << endl;
+    cout << "Price : " << bmw.price << endl;
+    cout << "Brand : " << bmw.brand << endl;
+
+    int onRoadPrice = bmw.calculateOnRoadPrice(100);
+    cout << "On Road Price : " << onRoadPrice << endl;
+```
+
