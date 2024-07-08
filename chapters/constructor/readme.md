@@ -53,3 +53,19 @@ car::car(){
 
 
 ```
+
+
+## Properties of constructors -
+
+1. Name of the constructor is same as class name.
+2. It can be defined inside and outside of class  but we need to declare it inside the class in public.
+3. Constructors do not return value that why they don't have any return type.
+4. Constructors can not be inherited.
+5. Address of the constructor cannot be referred to.
+
+## Types of constructors -
+
+1. Default constructors
+2. Parameterized constructors
+3. Copy constructors
+4. Move constructors
