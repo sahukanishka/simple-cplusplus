@@ -39,7 +39,7 @@ I will try to teach you like 6 year old kid. If you found this helpful hit the s
    - Multidimensional Arrays
    - Introduction to Strings
    - String Manipulation Techniques and Functions
-3. **Linked Lists**
+3. [**Linked Lists**](data-structure/linked-list/redme.md)
    - Singly Linked List
    - Doubly Linked List
    - Circular Linked List
